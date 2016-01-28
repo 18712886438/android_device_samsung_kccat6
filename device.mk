@@ -17,10 +17,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/lentislte/lentislte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/kccat6/kccat6-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/lentislte/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/kccat6/overlay
 
 # common apq8084
 $(call inherit-product, device/samsung/apq8084-common/apq8084.mk)

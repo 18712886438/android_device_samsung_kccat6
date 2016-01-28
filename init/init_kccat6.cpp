@@ -60,10 +60,10 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     property_get("ro.bootloader", bootloader);
 
-        property_set("ro.build.fingerprint", "samsung/lentislteskt/lentislteskt:6.0/MRA58K/G906SKSU1BOI5:user/release-keys");
-        property_set("ro.build.description", "lentislteskt-user 6.0 MRA58K G906SKSU1BOI5 release-keys");
-        property_set("ro.product.model", "SM-G906S");
-        property_set("ro.product.device", "lentislteskt");
+        property_set("ro.build.fingerprint", "samsung/kccat6xx/kccat6:6.0/MRA58K/G901FXXU1BOK2:user/release-keys");
+        property_set("ro.build.description", "kccat6xx-user 6.0 MRA58K G901FXXU1BOK2 release-keys");
+        property_set("ro.product.model", "SM-G901F");
+        property_set("ro.product.device", "kccat6xx");
         gsm_properties();
 
     property_get("ro.product.device", device);

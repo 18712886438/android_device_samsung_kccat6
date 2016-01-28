@@ -3,5 +3,5 @@
 set -e
 
 export VENDOR=samsung
-export DEVICE=lentislte
+export DEVICE=kccat6
 ./../../$VENDOR/apq8084-common/extract-files.sh $@

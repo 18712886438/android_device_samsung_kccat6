@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/lentislte/full_lentislte.mk)
+$(call inherit-product, device/samsung/kccat6/full_kccat6.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -22,5 +22,5 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 # Inherit common CM phone.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := lentislte
-PRODUCT_NAME := cm_lentislte
+PRODUCT_DEVICE := kccat6
+PRODUCT_NAME := cm_kccat6

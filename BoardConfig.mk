@@ -16,7 +16,7 @@
 # inherit from common apq8084
 -include device/samsung/apq8084-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := lentislteskt,lentisltekkt,lentisltelgt
+TARGET_OTA_ASSERT_DEVICE := kccat6,kccat6xx
 
 # Kernel
 TARGET_ARCH := arm
@@ -24,11 +24,11 @@ TARGET_ARCH := arm
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/lentislte/init/init_lentislte.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/kccat6/init/init_kccat6.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # Radio
-BOARD_RIL_CLASS := ../../../device/samsung/lentislte/ril
+BOARD_RIL_CLASS := ../../../device/samsung/kccat6/ril
 
 # inherit from the proprietary version
--include vendor/samsung/lentislte/BoardConfigVendor.mk
+-include vendor/samsung/kccat6/BoardConfigVendor.mk
