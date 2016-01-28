@@ -22,5 +22,5 @@ $(call inherit-product-if-exists, vendor/samsung/lentislte/lentislte-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/lentislte/overlay
 
-# common trlte
-$(call inherit-product, device/samsung/lentislte-common/lentislte.mk)
+# common apq8084
+$(call inherit-product, device/samsung/apq8084-common/apq8084.mk)
