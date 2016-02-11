@@ -16,8 +16,6 @@
 # inherit from common apq8084
 -include device/samsung/apq8084-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := kccat6,kccat6xx
-
 # Kernel
 TARGET_ARCH := arm
 #TARGET_KERNEL_VARIANT_CONFIG := cm_lentislte_defconfig
