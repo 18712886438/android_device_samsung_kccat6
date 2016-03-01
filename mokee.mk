@@ -17,10 +17,11 @@
 $(call inherit-product, device/samsung/kccat6/full_kccat6.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
-# Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common mk phone.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := kccat6
-PRODUCT_NAME := cm_kccat6
+PRODUCT_NAME := mk_kccat6
+PRODUCT_MODEL := Galaxy S5 Plus
